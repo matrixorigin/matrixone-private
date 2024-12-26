@@ -3,7 +3,7 @@ name: Trigger MO-Cloud workflow
 on:
   push:
     branches:
-      - 'debug-*'
+      - 'debug-**'
 
 jobs:
   dispatch:
